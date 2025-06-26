@@ -15,7 +15,7 @@
   
 2.  Print the file 
 
-    ` python main.py .\MY_LARGE_EXAM_FILE.pdf --pages 8 --print --printer "\\THE_PRINTERNAME_FROM_ABOVE" --print-options "sides=two,finishings=staple-top-left"
+    `python main.py .\MY_LARGE_EXAM_FILE.pdf --pages 8 --print --printer "\\THE_PRINTERNAME_FROM_ABOVE" --print-options "sides=two,finishings=staple-top-left"`
 
     The programm should start splitting the files...
 
