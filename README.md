@@ -8,9 +8,9 @@ A cross-platform Python tool for splitting large PDF files into smaller chunks a
 
 C-stpl ist born out of the need to split and print large exam files, that contain individualized exams on our university printer. 
 
-(Example run)[docs/example.md] printing an EvaExam file on our university printer.
+[Example run](docs/example.md) printing an EvaExam file on our university printer.
 
-If anything does not work, check out the (Troubleshooting)[docs/troubleshooting.md] section.
+If anything does not work, check out the [Troubleshooting](docs/troubleshooting.md) section.
 
 
 ## Features
