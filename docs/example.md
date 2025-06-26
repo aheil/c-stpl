@@ -11,7 +11,7 @@
    
     `python main.py --list-printers` to determine a list of available printers
 
-    ![Listing available printers](../assets/llist-printers.png)
+    ![Listing available printers](../assets/list-printers.png)
   
 2.  Print the file 
 
