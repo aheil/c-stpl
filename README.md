@@ -1,6 +1,18 @@
-# PDF Splitter & Printer Tool
+# C-stpl - PDF Splitter & Printer Tool
+
+## tl;dr
 
 A cross-platform Python tool for splitting large PDF files into smaller chunks and optionally printing them to Windows, Mac, or Linux printers.
+
+## Remarks
+
+C-stpl ist born out of the need to split and print large exam files, that contain individualized exams on our university printer. 
+
+In case you get an printing error (code 31, A device attached to the system is not functioning), please check the default program used to display PDF files.
+For me, Microsoft Edge was not be able to perform the printing commands, therefor, I switched to PDF Annotator. Any other PDF program might work as well. Please try out various tools.  
+
+(Example run)(example.md) printing an EvaExam file on our university printer.
+
 
 ## Features
 
@@ -118,6 +130,7 @@ Available print options (use with `--print-options`):
 - `quality`: draft, normal, high
 - `copies`: number of copies (1, 2, 3, etc.)
 - `page-ranges`: 1-5, 1,3,5, etc.
+- `finishings`: staple-top-left, staple-top-right, staple-bottom-left, staple-bottom-right, staple-dual-left, staple-dual-top, staple-non (explicit disable)
 
 Example:
 ```bash
